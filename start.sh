@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 app.py & bash baqir.sh
+python3 app.py & bash baqir

@@ -1,12 +1,12 @@
 services:
   - type: web
     runtime: docker
-    name: Render
+    name: Deploy
     plan: free
     branch: main
     rootDir: .
     dockerCommand: bash start.sh
-    repo: https://github.com/TheRepthon/Render.git
+    repo: https://github.com/TheRepthon/Deploy.git
     region: frankfurt
     envVars:
       - key: API_ID
